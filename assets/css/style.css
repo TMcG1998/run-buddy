@@ -143,10 +143,11 @@ h3 {
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .primary-border {
@@ -155,10 +156,6 @@ h3 {
 
 .secondary-border {
     border-color: #39a6b2;
-}
-
-.intro {
-    text-align: center;
 }
 
 .intro h2 {
@@ -171,10 +168,10 @@ h3 {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .steps {
-    text-align: center;
     background: #fce138;
 }
 
@@ -207,7 +204,7 @@ h3 {
 }
 
 .trainers {
-    text-align: center;
+    
 }
 
 .trainer {
@@ -255,7 +252,6 @@ h3 {
 
 .contact {
     background-color: #024e76;
-    text-align: center;
 }
 
 .contact h2 {
@@ -290,4 +286,8 @@ h3 {
   
   .contact-info a {
     color: #fce138;
+  }
+
+  .flex-row {
+      display: flex;
   }
